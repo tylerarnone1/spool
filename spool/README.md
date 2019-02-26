@@ -2,7 +2,8 @@ my wire Frame https://wireframe.cc/keNhH1
 
 https://trello.com/b/igDyjSbk/spool
 
-
+             
+             
 ERD: https://www.lucidchart.com/invitations/accept/693edd16-2a83-497d-aeb3-dc2b522d4c5f
 
 My project is called Spool. Its going to be  like  a cross between stack overflow and tumbler. 
