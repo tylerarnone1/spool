@@ -1,9 +1,9 @@
-const Student = require('../models/spool');
+const User = require('../models/spool');
 
 module.exports = {
   index,
-  addFact,
-  delFact
+  addPost,
+  delPost
 };
 
 function index(req, res, next) {
@@ -26,13 +26,13 @@ function index(req, res, next) {
   });
 }
 
-function addFact(req, res, next) {
-  req.user.facts.push(req.body);
+function addPost(req, res, next) {
+  req.user.posts.push(req.body);
    req.user.save(function(err) {
      res.redirect('/users');
    });
 }
 
-function delFact(req, res, next) {
+function delPost(req, res, next) {
 
 }
